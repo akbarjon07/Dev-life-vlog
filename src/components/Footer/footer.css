@@ -1,0 +1,23 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 54px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer__social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__social-item + .footer__social-item {
+    margin-left: 35px;
+}

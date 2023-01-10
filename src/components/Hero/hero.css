@@ -1,0 +1,61 @@
+.hero-section {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #202020;
+    background-image: url(../../assets/images/avatar-modified.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: right 220px center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-section__container {
+    padding: 30px;
+    /* background: #202020;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 5px; */
+
+}
+
+.hero-section__left {
+    width: 497px;
+}
+
+.hero-section__heading {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #D2D2D2;
+}
+
+.hero-section__desc {
+    margin: 0;
+    margin-bottom: 38px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D2D2D2;
+}
+
+.hero-section__btn {
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3137C9;
+    box-shadow: 0px 7px 17px -10px rgba(32, 84, 219, 0.35);
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
