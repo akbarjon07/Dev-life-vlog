@@ -37,6 +37,10 @@
     color: #FFFFFF;
 }
 
+.header__nav-link-active {
+    color: #FF6464;
+}
+
 .header__search-input {
     width: 300px;
     padding: 10px;
@@ -47,4 +51,9 @@
     color: rgba(255, 255, 255, 0.4);
     border: 1px solid transparent;
     border-radius: 5px;
+}
+
+.header__search-input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }

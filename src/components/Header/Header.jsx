@@ -1,4 +1,5 @@
-import "./header.css"
+import "./header.css";
+import { NavLink } from "react-router-dom";
 
 export function Header () {
 
@@ -9,15 +10,19 @@ return (
             <nav className="header__nav">
                 <ul className="header__nav-list">
                     <li className="header__nav-item">
-                        <a className="header__nav-link" href="#">Блог</a>
+                        <NavLink to="/home" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Главная</NavLink>
                     </li>
 
                     <li className="header__nav-item">
-                        <a className="header__nav-link" href="#">Работы</a>
+                        <NavLink to="/blog" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Блог</NavLink>
                     </li>
 
                     <li className="header__nav-item">
-                        <a className="header__nav-link" href="#">Контакты</a>
+                        <NavLink to="/projects" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Проекты</NavLink>
+                    </li>
+
+                    <li className="header__nav-item">
+                        <NavLink to="/contacts" className={({isActive}) => isActive ? "header__nav-link-active header__nav-link" : "header__nav-link"}>Контакты</NavLink>
                     </li>
                 </ul>
             </nav>
